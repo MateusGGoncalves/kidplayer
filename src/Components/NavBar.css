@@ -1,0 +1,9 @@
+.Navv{
+    background-color: white;
+    font-family: "Oxanium";
+    font-size: calc(15px + 2vmin);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsl(0, 79%, 53%);
+}

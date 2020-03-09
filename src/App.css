@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  }
+  
+  .App-header {
+    background-color: hsl(0, 79%, 53%);
+    min-height: 60vh;
+    display: flex;
+    text-align: center;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oxanium";
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-Historia {
+    background-color: white;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(15px + 2vmin);
+    color:hsl(0, 79%, 53%);
+    font-family: "Oxanium";
+  }
+  
+  .App-link {
+    color: hsl(0, 79%, 53%);
+    display: flex;
+    font-family: "Oxanium";
+  }
+  .Sobremim {
+    column-count: 2;
+    background-color: white;
+    text-align: justify;
+    font-size: calc(5px + 2vmin);
+    color:black;
+    width: 95%;
+    font-family: "Oxanium";
+  }
