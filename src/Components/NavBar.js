@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className="Navv">
         <AppBar backgourd-color="red" position = "static">
             <ToolBar className="Navv" >
-                <Typography variant="title" backgourd-color="red">
+                <Typography variant="title" backgourd-color="inherit">
                     Use Code Kid-Player 
                 </Typography>
             </ToolBar> 

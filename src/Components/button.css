@@ -1,12 +1,33 @@
-.Button2{
-    
-        background-color: red;
-        border: 1;
-        border-color: white;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
+:root {
+  --red: red;
+  --black: black;
+  --white: white;
+}
+.btn{
+  font-weight: 400;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover{
+  transform: translateY(-5px);
+}
+
+.btn--twitch{
+  font-family: "Oxanium";
+  background-color: var(--red);
+  color: var(--white);
+  border: 2px solid var(--red);
+}
+
+.btn--medio{
+  padding: 10px 20px;
+  font-size: calc(6px + 2vmin);
+  margin-right: 5px;
+
+}
+.btn--grande{
+  padding: 20px 40px;
+  font-size: calc(8px + 2vmin);
+}

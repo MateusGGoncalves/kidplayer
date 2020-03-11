@@ -22,21 +22,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: calc(15px + 2vmin);
+    font-size: calc(16px + 2vmin);
     color:hsl(0, 79%, 53%);
     font-family: "Oxanium";
   }
   
-  .App-link {
-    color: hsl(0, 79%, 53%);
-    display: flex;
-    font-family: "Oxanium";
-  }
   .Sobremim {
     column-count: 2;
     background-color: white;
     text-align: justify;
-    font-size: calc(5px + 2vmin);
+    font-size: calc(4px + 2vmin);
     color:black;
     width: 95%;
     font-family: "Oxanium";
